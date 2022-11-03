@@ -4,7 +4,7 @@ This repository contains all of the external Catherine modules available for dow
 
 The modules can be downloaded directly within the Catherine shell. If you would like to build them yourself, you can run the following commands, which will set everything up for Catherine:
 ```bash
-git clone https://github.com/hifumitech/catherine-modules && mkdir ~/.catherine
+git clone https://github.com/umikosec/catherine-modules && mkdir ~/.catherine
 ```
 
 ```bash
