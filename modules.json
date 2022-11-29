@@ -1,6 +1,6 @@
 {
     "author": "Umiko Labs",
-    "version": "v0.1.23",
+    "version": "v0.1.24",
     "numOfModules": "6",
     "ModulesList": [
         {
@@ -48,7 +48,7 @@
             "name": "Executable Dump",
             "description": "Multi-format parser built to extract various data points from Windows executables, object binaries, DLLs and more (32-bit & 64-bit)",
             "help": "Help: https://github.com/umikolabs/catherine-modules/blob/main/data/README.md",
-            "version": "0.1.8",
+            "version": "0.1.9",
             "category": "data"
         }
     ]
