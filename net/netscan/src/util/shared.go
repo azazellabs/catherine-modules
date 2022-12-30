@@ -3,7 +3,7 @@
     File: shared.go
 
     Author(s): {
-        Hifumi1337 <https://github.com/Hifumi1337>
+        azazelm3dj3d <https://github.com/azazelm3dj3d>
     }
 */
 
@@ -13,6 +13,6 @@ var NetScanAuthor string
 var NetScanVersion string
 
 func CheckVersion() {
-	NetScanAuthor = "Hifumi1337 (https://github.com/Hifumi1337)"
+	NetScanAuthor = "azazelm3dj3d (https://github.com/azazelm3dj3d)"
 	NetScanVersion = "1.0.8"
 }

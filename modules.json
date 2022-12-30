@@ -1,5 +1,5 @@
 {
-    "author": "CyberSuki",
+    "author": "azazelm3dj3d",
     "version": "v0.1.24",
     "numOfModules": "6",
     "ModulesList": [
@@ -7,7 +7,6 @@
             "id": "1",
             "name": "NetScan",
             "description": "Collects public network information about a host",
-            "help": "Help: https://github.com/cybersuki/catherine-modules/blob/main/net/netscan/README.md",
             "version": "1.0.8",
             "category": "net"
         },
@@ -15,7 +14,6 @@
             "id": "2",
             "name": "Web Parser",
             "description": "Parses web content, extracting external and internal links",
-            "help": "Help: https://github.com/cybersuki/catherine-modules/blob/main/web/README.md",
             "version": "0.2.12",
             "category": "web"
         },
@@ -23,7 +21,6 @@
             "id": "3",
             "name": "Mercy Extension",
             "description": "Suite of methods for decryption and decoding data",
-            "help": "Help: https://github.com/cybersuki/catherine-modules/blob/main/mercy/README.md",
             "version": "1.4.14",
             "category": "mercy"
         },
@@ -31,7 +28,6 @@
             "id": "4",
             "name": "Hex",
             "description": "Exports a hexadecimal dump for most file types (.exe, .toml, .c, etc.)",
-            "help": "Help: https://github.com/cybersuki/catherine-modules/blob/main/data/README.md",
             "version": "0.1.9",
             "category": "data"
         },
@@ -39,7 +35,6 @@
             "id": "5",
             "name": "Redis Analysis",
             "description": "Real-time Redis database analysis and monitoring",
-            "help": "Help: https://github.com/cybersuki/catherine-modules/blob/main/db_analysis/README.md",
             "version": "1.3.34",
             "category": "db_analysis"
         },
@@ -47,7 +42,6 @@
             "id": "6",
             "name": "Executable Dump",
             "description": "Multi-format parser built to extract various data points from Windows executables, object binaries, DLLs and more (32-bit & 64-bit)",
-            "help": "Help: https://github.com/cybersuki/catherine-modules/blob/main/data/README.md",
             "version": "0.1.9",
             "category": "data"
         }

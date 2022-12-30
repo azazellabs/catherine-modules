@@ -1,13 +1,13 @@
-###################################################
-#                                                 #
-# Project: Catherine (Module: Executable Dump)    #
-# File: main.py                                   #
-#                                                 #
-# Author(s): {                                    #
-#   Hifumi1337 <https://github.com/Hifumi1337>    #
-# }                                               #
-#                                                 # 
-###################################################
+####################################################
+#                                                  #
+# Project: Catherine (Module: Executable Dump)     #
+# File: main.py                                    #
+#                                                  #
+# Author(s): {                                     #
+#   azazelm3dj3d <https://github.com/azazelm3dj3d> #
+# }                                                #
+#                                                  # 
+####################################################
 
 from subprocess import getoutput
 import pefile

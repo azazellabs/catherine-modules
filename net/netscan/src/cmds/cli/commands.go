@@ -3,7 +3,7 @@
     File: commands.go
 
     Author(s): {
-        Hifumi1337 <https://github.com/Hifumi1337>
+        azazelm3dj3d <https://github.com/azazelm3dj3d>
     }
 */
 
@@ -22,7 +22,7 @@ import (
 func NetCommands() {
 		controller := cli.NewApp()
 
-		controller.Name = "NetScan (Derived from https://github.com/Hifumi1337/gonet)"
+		controller.Name = "NetScan (Derived from https://github.com/azazelm3dj3d/gonet)"
 		controller.Usage = "Go application created to gather network information about a specific host"
 
 		defaultValues := []cli.Flag {

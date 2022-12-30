@@ -1,13 +1,13 @@
-###################################################
-#                                                 #
-# Project: Catherine (Module: Mercy Extension)    #
-# File: mercy_ext.py                              #
-#                                                 #
-# Author(s): {                                    #
-#   Hifumi1337 <https://github.com/Hifumi1337>    #
-# }                                               #
-#                                                 # 
-###################################################
+####################################################
+#                                                  #
+# Project: Catherine (Module: Mercy Extension)     #
+# File: mercy_ext.py                               #
+#                                                  #
+# Author(s): {                                     #
+#   azazelm3dj3d <https://github.com/azazelm3dj3d> #
+# }                                                #
+#                                                  # 
+####################################################
 
 import base64, argparse
 from cryptography.fernet import Fernet

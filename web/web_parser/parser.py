@@ -1,13 +1,13 @@
-###################################################
-#                                                 #
-# Project: Catherine (Module: web_parser)         #
-# File: parser.py                                 #
-#                                                 #
-# Author(s): {                                    #
-#   Hifumi1337 <https://github.com/Hifumi1337>    #
-# }                                               #
-#                                                 # 
-###################################################
+####################################################
+#                                                  #
+# Project: Catherine (Module: web_parser)          #
+# File: parser.py                                  #
+#                                                  #
+# Author(s): {                                     #
+#   azazelm3dj3d <https://github.com/azazelm3dj3d> #
+# }                                                #
+#                                                  # 
+####################################################
 
 
 import requests, colorama, time

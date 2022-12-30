@@ -3,7 +3,7 @@
     File: hex.c (Module: Hex)
 
     Author(s): {
-        Hifumi1337 <https://github.com/Hifumi1337>
+        azazelm3dj3d <https://github.com/azazelm3dj3d>
     }
 */
 

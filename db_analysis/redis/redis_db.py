@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
-###################################################
-#                                                 #
-# Project: Catherine (Module: Database Analysis)  #
-# File: redis_db.py                               #
-#                                                 #
-# Author(s): {                                    #
-#   Hifumi1337 <https://github.com/Hifumi1337>    #
-# }                                               #
-#                                                 # 
-###################################################
+####################################################
+#                                                  #
+# Project: Catherine (Module: Database Analysis)   #
+# File: redis_db.py                                #
+#                                                  #
+# Author(s): {                                     #
+#   azazelm3dj3d <https://github.com/azazelm3dj3d> #
+# }                                                #
+#                                                  # 
+####################################################
 
 import redis, time, sys, os, platform, argparse, colorama
 from subprocess import getoutput
