@@ -1,10 +1,7 @@
 /*
-    Project: Catherine (Module: NetScan)
-    File: commands.go
-
-    Author(s): {
-        azazelm3dj3d <https://github.com/azazelm3dj3d>
-    }
+    Project: Catherine (https://github.com/CatherineFramework)
+    Module by: azazelm3dj3d (https://github.com/azazelm3dj3d)
+    License: BSD 2-Clause
 */
 
 package commands
@@ -16,13 +13,11 @@ import (
 	"os"
 
 	"github.com/urfave/cli"
-	"netscan/util"
 )
 
 func NetCommands() {
 		controller := cli.NewApp()
 
-		controller.Name = "NetScan (Derived from https://github.com/azazelm3dj3d/gonet)"
 		controller.Usage = "Go application created to gather network information about a specific host"
 
 		defaultValues := []cli.Flag {
@@ -35,18 +30,6 @@ func NetCommands() {
 
 		// Command List
 		controller.Commands = []cli.Command {
-		{
-			Name: "version",
-			Usage: "Version information for NetScan",
-			Flags: defaultValues,
-
-		Action: func(cmd *cli.Context) error {
-				fmt.Println("NetScan | v", util.NetScanVersion)
-				fmt.Println("Author:", util.NetScanAuthor)
-				
-				return nil
-			},
-		},
 		{
 			Name: "ns",
 			Usage: "Returns nameserver information about a particular host",
@@ -227,9 +210,6 @@ func NetCommands() {
 				// if err != nil {
 				// 	return err
 				// }
-				
-				fmt.Println("NetScan | v", util.NetScanVersion)
-				fmt.Println("Author:", util.NetScanAuthor)
 
 				fmt.Println("\n")
 

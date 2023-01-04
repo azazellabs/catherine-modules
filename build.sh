@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Project: Catherine (https://github.com/CatherineFramework)
+# Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
+# License: BSD 2-Clause
+
 currentDir=$(pwd)
 
 function set_dir() {
@@ -27,86 +31,88 @@ function netscan() {
 netscan
 set_dir
 
-# Web Parser
-function parser() {
-    cd web/web_parser
-    echo "[+] Configuring Web Parser module..."
+# Web parsers
+function parsers() {
+    cd web/parsers
 
-    pyinstaller parser.py --onefile --clean -n parser 2>/dev/null
+    # Link parser
+    echo "[+] Configuring Link parser module..."
+
+    pyinstaller links.py --onefile --clean -n links 2>/dev/null
     
-    if [ -f "dist/parser" ]
+    if [ -f "dist/links" ]
     then
-        echo "[+] Web Parser successfully built"
+        echo "[+] Link parser successfully built"
     else
-        echo "[-] Web Parser was not built properly"
+        echo "[-] Link parser was not built properly"
     fi
     echo ""
     
-    rm -r build/ parser.spec
+    rm -r build/ links.spec
 }
 
-parser
+parsers
 set_dir
 
-# Executable Dump
-function exe_dump() {
+# Exec Dump
+function exec_dump() {
     cd data/exe
-    echo "[+] Configuring Executable Dump module..."
+    echo "[+] Configuring Exec Dump module..."
 
-    pyinstaller exe_dump.py --onefile --clean -n exe_dump 2>/dev/null
+    pyinstaller exec_dump.py --onefile --clean -n exec_dump 2>/dev/null
 
-    if [ -f "dist/exe_dump" ]
+    if [ -f "dist/exec_dump" ]
     then
-        echo "[+] Executable Dump successfully built"
+        echo "[+] Exec Dump successfully built"
     else
-        echo "[-] Executable Dump was not built properly"
+        echo "[-] Exec Dump was not built properly"
     fi
     echo ""
     
-    rm -r build/ exe_dump.spec
+    rm -r build/ exec_dump.spec
 }
 
-exe_dump
+exec_dump
 set_dir
 
 # Hex
-function hex() {
-    cd data/hex
-    echo "[+] Configuring Hex module..."
+function c_hex() {
+    cd data/hex/c
+    echo "[+] Configuring Hex 'C' module..."
 
     make 2>/dev/null
 
     if [ -f "dist/hex.so" ]
     then
-        echo "[+] Hex successfully built"
+        echo "[+] Hex 'C' successfully built"
     else
-        echo "[-] Hex was not built properly"
+        echo "[-] Hex 'C' was not built properly"
     fi
     echo ""
 }
 
-hex
+c_hex
 set_dir
 
-# Redis Analyzer
-function redis_db() {
-    cd db_analysis/redis
+# Redis Analysis
+function redis_analysis() {
+    cd db/redis
     echo "[+] Configuring Redis Analysis module..."
 
-    pyinstaller redis_db.py --onefile --clean -n redis_db 2>/dev/null
+    pyinstaller redis_analysis.py --onefile --clean -n redis_analysis 2>/dev/null
     
-    if [ -f "dist/redis_db" ]
+    if [ -f "dist/redis_analysis" ]
     then
-        echo "[+] Redis Analyzer successfully built"
+        echo "[+] Redis Analysis module successfully built"
     else
-        echo "[-] Redis Analyzer was not built properly"
+        echo "[-] Redis Analysis module was not built properly"
     fi
     echo ""
     
-    rm -r build/ redis_db.spec
+    rm -r build/ redis_analysis.spec
 }
 
-redis_db
+redis_analysis
 set_dir
 
 # Mercy Extension
@@ -114,7 +120,7 @@ function mercy_ext() {
     cd  mercy
     echo "[+] Configuring Mercy Extension module..."
 
-    pyinstaller utils/mercy_ext.py --onefile --clean -n mercy_ext 2>/dev/null
+    pyinstaller extension.py --onefile --clean -n mercy_ext 2>/dev/null
 
     if [ -f "dist/mercy_ext" ]
     then

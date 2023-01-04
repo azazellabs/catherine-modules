@@ -1,10 +1,11 @@
 # Data Module
 
-The data module contains solutions for data manipulation, collection, obfuscation, deobfuscation, or anything else related to the retention/collection of data.
+The data module contains solutions for data collection, deobfuscation, or anything else related to the retention/collection of data.
 
-The data module is currently able to dump or read these data points:
+## Modules
 
-|  Type                             |  Location         |
-|-----------------------------------|-------------------|
-|  Hexadecminal Dumping             |  hex/hex.rs       |
-|  Executable Reverse Engineering   |  exe/exe_dump.py  |
+|  Type                                |  Location                          |
+|--------------------------------------|------------------------------------|
+|  Windows executable header dumping   |  exe/exec_dump.py                  |
+|  Hexadecminal dumping (Rust)         |  data/hex/rust/rust_hex_dump.rs    |
+|  Hexadecminal dumping (C)            |  data/hex/c/c_hex_dump.rs          |
