@@ -1,19 +1,15 @@
 ## How to Install Catherine Modules
 
 ### Source
-After installing Catherine Framework from the source, all you have to do is pull down the git modules:
-
-```bash
-git submodule update --init --recursive
-```
-
-```bash
-git submodule update --recursive --remote
-```
+Nothing! Should work out of the box if pulling directly from GitHub.
 
 ### Cargo
-If installing from Cargo, all you have to do is `git clone` the repository:
+If installing from Cargo, you can run the `install.sh` script provided in this repo:
 
 ```bash
-git clone https://github.com/CatherineFramework/modules.git
+chmod +x install.sh
+```
+
+```bash
+./install.sh
 ```
