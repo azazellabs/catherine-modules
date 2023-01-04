@@ -17,5 +17,3 @@ If installing from Cargo, all you have to do is `git clone` the repository:
 ```bash
 git clone https://github.com/CatherineFramework/modules.git
 ```
-
-NOTE: You'll notice the `src/modules/**` file path. This is currently required by Catherine when using Cargo.
