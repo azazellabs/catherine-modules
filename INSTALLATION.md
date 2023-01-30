@@ -7,5 +7,5 @@ Nothing! Should work out of the box if pulling directly from GitHub.
 If installing from Cargo, you can clone the modules from this repository:
 
 ```bash
-git clone https://github.com/CatherineFramework/modules.git
+git clone https://github.com/jinxsecurity/catherine-modules.git
 ```

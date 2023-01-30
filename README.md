@@ -1,3 +1,3 @@
-# Catherine Modules
+# Catherine Framework Modules
 
-You can find the Catherine Framework [here](https://github.com/CatherineFramework/Catherine).
+You can find the Catherine Framework [here](https://github.com/jinxsecurity/catherine).
