@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Project: Catherine Framework (https://github.com/jinxsecurity/catherine)
-# Author: Jinx Security (https://github.com/jinxsecurity)
+# Project: Catherine Framework (https://github.com/azazelm3dj3d/catherine)
+# Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
 # License: BSD 2-Clause
 
 currentDir=$(pwd)

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    Project: Catherine Framework (https://github.com/jinxsecurity/catherine)
+    Project: Catherine Framework (https://github.com/azazelm3dj3d/catherine)
     Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
     License: BSD 2-Clause
 """
