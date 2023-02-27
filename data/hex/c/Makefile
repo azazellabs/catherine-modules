@@ -1,5 +1,5 @@
-# Project: Catherine Framework (https://github.com/azazelm3dj3d/catherine)
-# Author: azazelm3dj3d (https://github.com/azazelm3dj3d)
+# Project: Catherine Framework (https://github.com/azazellabs/catherine)
+# Author: Azazel Labs (https://github.com/azazellabs)
 # License: BSD 2-Clause
 
 hex.so:
